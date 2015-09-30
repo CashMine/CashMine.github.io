@@ -1,0 +1,162 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  background-color: #12110F;
+  overflow: hidden;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.bar {
+  position: fixed;
+  background-color: rgba(255,255,255,0.1);
+  width: 100%;
+  top: 0;
+  height: 5px;
+}
+.wrapper {
+  padding: 50px 0;
+  width: 600px;
+  margin: 120px auto 0;
+  -moz-perspective: 800px;
+  -webkit-perspective: 800px;
+  -ms-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+}
+  .container {
+    width: 550px;
+    margin: 0 auto;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    opacity: 0.3;
+    -webkit-transform: rotateX(-5deg) rotateY(-10deg) rotateZ(0deg);
+    -moz-transform: rotateX(-5deg) rotateY(-10deg) rotateZ(0deg);
+    -ms-transform: rotateX(-5deg) rotateY(-10deg) rotateZ(0deg);
+    -o-transform: rotateX(-5deg) rotateY(-10deg) rotateZ(0deg);
+    transform: rotateX(-5deg) rotateY(-10deg) rotateZ(0deg);
+  }
+    .start .container {
+      opacity: 1;
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+  .lead a {
+    color: #D8E9F4;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+    .lead a:hover {
+      border-bottom: 1px dotted #D8E9F4;
+    }
+    h1 {
+      text-align: left;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #616466;
+      font-size: 73pt;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      margin: 0 auto 30px;
+      text-indent: -4px;
+      color: #CFDAE0;
+      font-family: "Montserrat", sans-serif;
+    }
+    .lead {
+      color: #727E88;
+      margin: 0 auto 30px;
+      font-size: 13pt;
+      font-weight: 300;
+      line-height: 21pt;
+      letter-spacing: -0.3px;
+    }
+  .animated {
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+  }
+  .links {
+    cursor: default;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+    .links a {
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+      opacity: 0;
+      font-size: 10pt;
+      color: #727E88;
+      text-decoration: none;
+      left: 30px;
+      -webkit-transition: all 0.6s ease-out;
+      -moz-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+      transition: all 0.6s ease-out;
+    }
+      .links a:nth-child(1) {
+        left: 5px;
+      }
+      .links a:hover {
+        color: #D8E9F4;
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 10px;
+      }
+      .start .links a {
+        left: 0;
+        opacity: 1;
+      }
+    .address {
+      overflow: hidden;
+      border-right: 1px solid #1f1f1f;
+      display: inline-block;
+      padding: 10px;
+      text-align: right;
+      font-size: 10pt;
+      color: #3F4345;
+      opacity: 0.2;
+      -webkit-transition: all 0.6s ease-out;
+      -moz-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+      transition: all 0.6s ease-out;
+    }
+      .address .text {
+        position: relative;
+        left: 80px;
+        opacity: 0.2;
+        -webkit-transition: all 0.6s ease-out;
+        -moz-transition: all 0.6s ease-out;
+        -o-transition: all 0.6s ease-out;
+        -ms-transition: all 0.6s ease-out;
+        transition: all 0.6s ease-out;
+      }
+        .start .address .text {
+          left: 0px;
+          opacity: 1;
+        }
+      .start .address {
+        opacity: 1;
+      }
+  .copyright {
+    cursor: default;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    text-align: left;
+    opacity: 0.2;
+    font-size: 8pt;
+    color: #B3B3B3;
+  }
