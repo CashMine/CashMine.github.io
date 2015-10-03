@@ -52,7 +52,7 @@ body, html {
     text-decoration: none;
     border-bottom: 1px solid transparent;
     text-align: center;
-    width: 200px;
+    width: 300px;
   }
     .lead a:hover {
       border-bottom: 1px dotted #D8E9F4;
