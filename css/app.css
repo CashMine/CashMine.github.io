@@ -137,3 +137,11 @@ a {
 .end-pane {
   margin-bottom: 140px;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
