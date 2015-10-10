@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  color: #000 !important;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.navbar-default {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #16a085;
+}
+
+.logo {
+  width: 120px;
+}
+
+.navbar-right {
+  margin-top: 10px;
+}
+
+#main-headline {
+  font-size: 50px;
+}
+
+.page-header {
+  margin-bottom: -20px;
+}
+
+.headline-content {
+  margin-top: 80px;
+}
+
+.green-hr {
+  border-color: #1abc9c;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.down-arrow {
+  margin-top: 50px;
+}
+.down-arrow:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.animated { 
+    -webkit-animation-duration: 5s; 
+    animation-duration: 5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+
+@-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-30px);} 
+    60% {-webkit-transform: translateY(-15px);} 
+} 
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+} 
+
+.bounce { 
+    -webkit-animation-name: bounce; 
+    animation-name: bounce; 
+}
+
+.demo-button {
+  margin-top: 20px;
+}
+
+.pane {
+  min-height: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.friends {
+  margin-top: 50px;
+  width: 400px;
+}
+
+.info-container {
+  margin-top: 10%;
+}
+
+.automation-link {
+  margin-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.to-end-pane {
+  margin-top: 140px;
+}
+
+.end-pane {
+  margin-bottom: 140px;
+}
