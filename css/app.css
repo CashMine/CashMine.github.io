@@ -32,10 +32,6 @@ a {
   width: 120px;
 }
 
-.navbar-right {
-  margin-top: 10px;
-}
-
 #main-headline {
   font-size: 50px;
 }
@@ -144,4 +140,8 @@ a {
 
 .navbar-default .navbar-toggle {
   border-color: #fff;
+}
+
+.brand-green-color {
+  color: #1abc9c;
 }
