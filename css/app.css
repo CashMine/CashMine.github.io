@@ -162,6 +162,12 @@ a {
   font-size: 100px;
 }
 
+@media (max-width: 480px) {
+  .brand-headline-text {
+    font-size: 80px;
+  }
+}
+
 .headline-supporting-text {
   line-height: 30px;
 }
@@ -172,4 +178,8 @@ a {
 
 .projects-row {
   border-top: 1px solid #ccc;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000 !important;
 }
